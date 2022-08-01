@@ -11590,12 +11590,12 @@ body {
 
 .about-section {
   padding: 5rem 0;
-  background-color: #00489d;
 }
 .about-section-content {
   padding-top: 1.5rem;
   background-color: white;
   border-radius: 30px;
+  outline: solid #00489d;
 }
 .about-section p {
   margin-bottom: 5rem;
