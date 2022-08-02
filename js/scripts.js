@@ -68,4 +68,4 @@ function collapseOurStory() {
       btnText.innerHTML = "READ LESS";
       moreText.style.display = "inline";
     }
-  }
+  };
