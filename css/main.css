@@ -9,6 +9,29 @@
     height: auto;
 }
 
+#more {
+    display: none;
+}
+
+.readButton {
+    margin-bottom: 2rem;
+    border-color: #00489d;
+    border-radius: 0.5rem;
+    color:white;
+    background-color: #00489d;
+    opacity: 0.8;
+    font-weight: bold;
+}
+
+.readButton:hover {
+    margin-bottom: 2rem;
+    border-color: #00489d;
+    border-radius: 0.5rem;
+    color: #00489d;
+    background-color: white;
+}
+
+
 .project {
     border-style: solid;
     border-color: #00489d;

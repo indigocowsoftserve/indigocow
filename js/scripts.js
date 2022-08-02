@@ -52,3 +52,20 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+// Expand and collapse extra content in Our Story
+function collapseOurStory() {
+    var dots = document.getElementById("readMore");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "READ MORE";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "READ LESS";
+      moreText.style.display = "inline";
+    }
+  }
