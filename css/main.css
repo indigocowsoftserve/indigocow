@@ -7,6 +7,12 @@
     height: auto;
 }
 
+@media (min-width: 768px) {
+    .img-logo {
+      width: 40%;
+    }
+  }
+
 #more {
     display: none;
 }
